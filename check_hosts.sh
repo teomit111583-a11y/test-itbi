@@ -1,6 +1,7 @@
 #!/bin/bash
 HOSTS="${1:-/etc/hosts}"
 
+echo "Main account - forked"
 # check_ip HOST IP DNS_SERVER
 # Verifica asocierea host-IP folosind serverul DNS dat
 check_ip() {
